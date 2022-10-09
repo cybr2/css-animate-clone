@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ANIMATE</title> 
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="animate.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="wrapper1">
+                <!-- <p class="anim" id="bounce"  >Animate.css</p> -->
+
+                <img class="anim" id="bounce" src="webicon1.png" alt="webicon">
+
+            </div>
+            <div class="wrapper2">
+                <div class="buttons">
+                    <div class="group1 p1">
+                        <p>Attention seekers</p>
+                        <button  onclick="bounceAnimate()">rubberBand</button>
+                        <button onclick="flashAnimate()">flash</button>
+                        <button onclick="tadaAnimate()">tada</button>
+                        <button onclick="wobbleAnimate()">wobble</button>
+                    </div>
+                    <div class="group1 p2">
+                        <p>Entrances</p>
+                        <button onclick="backInDownAnimate()">BackInDown</button>
+                        <button onclick="backInLeftAnimate()">BackInLeft</button>
+                        <button onclick="backInRightAnimate()">BackInRight</button>
+                        <button onclick="backInUpAnimate()">BackInUp </button>
+                    </div>
+                    <div class="group1 p3">
+                        <p>Exits</p>
+                        <button onclick="backOutDownAnimate()">BackOutDown</button>
+                        <button onclick="backOutLeftAnimate()">BackOutLeft</button>
+                        <button onclick="backOutRightAnimate()">BackOutRight</button>
+                        <button onclick="backOutUpAnimate()">BackOutUp</button>
+                    </div>
+                    <div class="group1 p4">
+                        <p>Bouncing entrances</p>
+                        <button onclick="bounceInAnimate()">BounceIn</button>
+                        <button onclick="bounceInDownAnimate()">BounceInDown</button>
+                        <button>BounceInLeft</button>
+                        <button>BounceInRight</button>
+                        <button>BounceInUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="animate.js" async defer></script>
+        
+    </body>
+</html>
